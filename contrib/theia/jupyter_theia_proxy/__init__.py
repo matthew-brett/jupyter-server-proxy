@@ -17,7 +17,6 @@ def setup_theia():
 
     return {
         'command': _theia_command,
-        'absolute_url': True,
         'environment': {
             'USE_LOCAL_GIT': 'true'
         },
